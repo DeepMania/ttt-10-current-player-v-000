@@ -6,5 +6,6 @@ board.each do |count|
     counter += 1
   end
   return counter
+else turn_count(board)
 end
 end
