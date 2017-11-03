@@ -15,7 +15,7 @@ def current_player(board)
     return "X"
   elsif counter % 2 == 0
     return "X"
-  else
+  elsif counter % 2 == 1
     return "O"
   end
 end
