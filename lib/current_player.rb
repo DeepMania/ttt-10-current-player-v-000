@@ -12,7 +12,7 @@ end
 def current_player(board)
   counter = turn_count(board)
 =begin if counter == 1 return "O"
-=end  
+=end
   elsif counter % 2 == 0
     return "X"
   elsif counter % 2 != 0
